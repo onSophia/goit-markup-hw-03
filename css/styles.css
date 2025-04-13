@@ -54,6 +54,7 @@ img {
 .container {
     width: 1158px;
     padding: 0 15px 0 15px;
+    margin: 0 auto;
 }
 
 .link-address:hover {
@@ -117,6 +118,8 @@ img {
 
 .description-li {
     width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .description-head {
