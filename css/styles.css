@@ -51,6 +51,11 @@ img {
     color: #434455;
 }
 
+.container {
+    width: 1158px;
+    padding: 0 15px 0 15px;
+}
+
 .link-address:hover {
     color: #404bbf;
 }
@@ -65,7 +70,6 @@ img {
     padding-bottom: 188px;
 }
 
-.beginning-container {}
 
 .beginning-head {
     font-size: 56px;
@@ -134,6 +138,11 @@ img {
 .team {
     background-color: #F4F4FD;
     padding: 120px 0 120px;
+}
+
+.team-container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 }
 
 .team-hj {
