@@ -4,6 +4,10 @@ body {
     background-color: #FFFFFF;
 }
 
+img {
+    display: block;
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
