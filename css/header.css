@@ -2,29 +2,15 @@
     border-bottom: 1px solid #e7e9fc;
 }
 
-.info-container {
-    display: flex;
-}
-
 .info-container .container {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
 }
 
-.nav-info {
-    display: flex;
-    align-items: center;
-    margin-right: 76px;
-}
-
 .menu-info {
     display: flex;
     gap: 40px;
-}
-
-.menu-info-pynkt {
-    padding: 24px 0 24px;
 }
 
 .address-ul {
@@ -47,25 +33,12 @@
     color: #2e2f42;
 }
 
-.logo-ulstudio {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    padding: 24px 0 24px;
-}
-
 .logo-ulstudio:hover {
     color: #404bbf;
 }
 
 .logo-ulstudio:focus {
     color: #404bbf;
-}
-
-.hea-address {
-    font-style: normal;
 }
 
 .link-address {
@@ -81,4 +54,38 @@
 
 .link-address:focus {
     color: #404bbf;
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+    /* Центрируем по вертикали все три блока */
+}
+
+/* Убрали margin-right: 76px, так как логотип больше не в nav */
+.nav-info {
+    display: flex;
+    align-items: center;
+}
+
+/* Убрали внутренние отступы у элементов списка (li) */
+.menu-info-pynkt {
+    /* Удалите отсюда padding */
+}
+
+/* Добавили display: block и перенесли отступы сюда */
+.logo-ulstudio {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    padding: 24px 0;
+}
+
+/* Прижимаем блок контактов к правому краю */
+.hea-address {
+    font-style: normal;
+    margin-left: auto;
 }
